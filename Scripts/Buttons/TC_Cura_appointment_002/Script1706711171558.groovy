@@ -30,10 +30,9 @@ WebUI.setText(findTestObject('Object Repository/CURA_page_OR/TC_Cura_006/input_u
 WebUI.setEncryptedText(findTestObject('Object Repository/CURA_page_OR/TC_Cura_006/input_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/CURA_page_OR/TC_Cura_006/button_Login'))**/
+CustomKeywords.'cura_custom_keyword_001.verifyElementClickable.isElementClickable'(findTestObject('CURA_page_OR/TC_Cura_005/button_Book Appointment'))
 
 WebUI.click(findTestObject('Object Repository/CURA_page_OR/TC_Cura_005/button_Book Appointment'))
 
 WebUI.verifyElementNotPresent(findTestObject('CURA_page_OR/TC_Cura_006/h2_Appointment Confirmation'), 0)
-
-//WebUI.closeBrowser()
 

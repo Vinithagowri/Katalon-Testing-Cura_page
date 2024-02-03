@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
@@ -24,10 +25,15 @@ WebUI.click(findTestObject('Object Repository/CURA_page_OR/TC_Cura_003/Page_CURA
 
 WebUI.click(findTestObject('Object Repository/CURA_page_OR/TC_Cura_003/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/CURA_page_OR/TC_Cura_003/Page_CURA Healthcare Service/input_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/CURA_page_OR/TC_Cura_003/Page_CURA Healthcare Service/input_username'), 
+    'John Doe')
+
+CustomKeywords.'cura_custom_keyword_001.verifyElementClickable.isElementClickable'(findTestObject('CURA_page_OR/TC_Cura_003/Page_CURA Healthcare Service/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/CURA_page_OR/TC_Cura_003/Page_CURA Healthcare Service/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/CURA_page_OR/TC_Cura_003/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
     0)
+
 WebUI.closeBrowser()
+
