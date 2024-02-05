@@ -15,7 +15,7 @@
       <guid>64ce6770-b949-4d67-a140-cb7b2544adae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Buttons/TC_Cura_appointment_002</testCaseId>
+      <testCaseId>Test Cases/Custom_keywords/TC_Cura_appointment_002</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

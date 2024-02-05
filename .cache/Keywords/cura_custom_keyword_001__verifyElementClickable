@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6FB0EC51EA0C151A99618350E8D14B02",
+  "keywordFileContentHash": "16F0ADCA4B42E9F3BBD4BC9A37218267",
   "keywordClasses": [
     {
       "name": "cura_custom_keyword_001.verifyElementClickable",
@@ -20,11 +20,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

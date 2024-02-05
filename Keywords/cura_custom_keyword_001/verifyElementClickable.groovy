@@ -26,10 +26,9 @@ public class verifyElementClickable {
 	@Keyword
 	def void isElementClickable(TestObject tb) {
 		WebElement sudo = WebUiCommonHelper.findWebElement(tb,60);
-		
+
 		if(sudo.isDisplayed() && sudo.isEnabled()) {
 			System.out.println("element is clickable");
-			
 		}
 		else {
 			System.out.println("element is not clikable");
